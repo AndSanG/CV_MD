@@ -1,0 +1,64 @@
+
+Andres S.
+iOS Engineer
+Andres is an iOS engineer with eight years of experience specializing in mobile banking solutions for high-profile clients, primarily within the fintech sector and under strict SLAs. He is delivering reliable, high-quality, high-performance, and resilient applications, participating in end-to-end product delivery using both Agile and traditional methodologies. He has developed white label mobile banking products that are backend-agnostic, enabling multiple banks to share a unified, customizable solution, and has extensively applied protocol-oriented programming to abstract client differences for adaptability and reusability. His expertise includes implementing MVC-C Clean, TCA, internationalization, and theme management for client-specific branding and localization, as well as server-driven UI for dynamic interface rendering and centralized UI management. With a Master’s Degree in Science in Applied Computer Science: Smart Cities, he has also integrated advanced security features such as local authentication (FaceID and TouchID), Apple Pay SDK, and built robust banking functionalities designed for heavy daily usage with 99.5% availability, ensuring compliance with stringent fintech requirements.
+Work Experience
+●  iuvity / Todo1 Services	2020 – 2025
+Senior iOS Engineer
+
+Developing UI features of iOS native apps (using both UIKit and SwiftUI) for Bancolombia apps and white label apps for BMM, Coltefinanciera, and Comultrasan. Creating plugins for hybrid mobile apps (Cordova & RN) using Swift, Objective-C and JavaScript. Integrating local authentication, such as FaceID and TouchID, to secure access to mobile banking apps, ensuring seamless UX while meeting strict fintech compliance.
+Implementing Apple Pay SDK integration for payments, achieving high success rates and low transaction latency even under peak loads. Building banking functionalities, including payments, transfers, and account management, on top of these secure SDKs, designed for heavy daily usage with 99.5% availability under industry SLAs.
+Managing App Store for over ten apps ranging from a few thousand to millions of users. Solving rejection problems, yearly T&C compliance, updating code to fulfill store requirements. Applying protocol-oriented programming extensively to abstract client differences, making the solution highly adaptable and reusable. Applying MVC-C, internationalization, and theme management to support client-specific branding and localization requirements while maintaining a shared core codebase.
+Implementing server-driven UI with Combine, allowing adaptive UI layout rendering of banking interfaces based on data fetched from backend services, enabling faster time-to-market and centralized UI management for white label mobile banking products, designed to be agnostic of back-end particularities.
+Evolving architecture from classic MVC-X and MVVM approaches to more robust ones, such as VIPER or state-driven approaches like Redux and TCA, using protocol-oriented programming.
+Include data collection capabilities using Firebase to evaluate clients behavior and A/B Testing. New Relic to evaluate the application performance and observability. 
+Work as a part of a small development team in charge of a specific feature that had to share a codebase with another 10+ teams.
+Technologies used: ● Cordova ● Dart ● Flutter ● iOS ● Swift ● Objective-C ● CocoaPods ● UIKit ● SwiftUI ● Swift Package Manager ● HTML ● CSS ● JavaScript ● TypeScript ● React ● React Native ● Redux ● REST ● AWS CodeBuild ● AWS CodePipeline ● Firebase ● Fastlane ● TestFlight ● XCTest ● GitHub Actions ● Jira ● Agile ● Kanban ● SOLID ● VIPER ● UI ● UX ● Git  
+●  iuvity / Todo1 Services	2017 – 2018
+Senior iOS Engineer
+
+Developed UI features of iOS native apps for Banistmo Panama using UIKit and VIPER. Integrate Swift code into an Objective C project. Integrate REST services using Alamofire.
+Migration of the application to support new aspect ratio and resolution for the newest phones (iPhone X).
+Become the de facto team leader of the development team as the other members were providers and become natural to guide and ensure that the company standards were met. Responsible for guiding the daily meetings and supporting the PM in technical aspects. 
+Manual delivery of beta release using TestFlight and AppStore release.
+Technologies used: ● iOS ● CocoaPods ● UIKit ● Firebase ● Fastlane ● TestFlight ● XCTest ● Jira ● Agile ● Kanban ● SOLID ● MVC ● VIPER ● UI ● Git 
+●  Bayteq	2015 – 2017
+iOS Engineer
+
+Developed white label solutions for mobile banking for Produbanco using UIKit. Developed the Supercines Cinema app, which included seat selection SDK and Integration of PCI DSS payment and CoreData.
+Developed a points-of-interest module, including agencies and ATMs, for an important bank using Mapkit. Implemented identity verification with FacePhi for banking, ensuring that only legitimate people access accounts.
+Worked for 20 weeks applying agile from the conception of the project to the final release to the App Store of a Digital Bank were the clients discovered the benefits of agile methodology. Also applied agile to current projects features. In charge of developing and delivering the application using fast lane and Jenkins and the administration of Testflight.
+Integrate with multiple REST services using custom Networking and Decoding in-house module and also Moya and Alamofire.
+Technologies used: ● iOS ● CocoaPods ● Core Data ● UIKit ● REST ● Fastlane ● TestFlight ● XCTest ● Jira ● Agile ● Kanban ● SOLID ● VIPER ● Git  ● Moya ● Alamofire    
+Teaching Experience
+●  Freelancer 	2010 – 2015
+Private Tutor
+
+Tutored and coached high school and university students in STEM and electronics.
+Education
+Master’s Degree in Applied Computer Science: Smart Cities
+Vrije Universiteit Brussel
+
+Bachelor’s Degree in Electronics and Communications Engineering
+Universidad Tecnica de Ambato
+
+Courses & Trainings
+iOS Lead Essentials Program
+Essential Developer
+
+Skills
+● iOS	● Swift	● Objective-C 
+● UIKit	● SwiftUI	● Swift Package Manager
+● Cordova	● Dart	● Flutter
+● Xcode	● CocoaPods	● Core Data
+● HTML	● CSS	● JavaScript
+● TypeScript	● React	● React Native
+● Redux	● REST	● AWS CodeBuild
+● AWS CodePipeline	● Firebase	● Fastlane
+● TestFlight	● XCTest	● Visual Studio Code
+● GitHub Actions	● Jira	● CCNA
+● Agile	● Kanban	● SOLID
+● CI/CD	● MVC	● VIPER
+● UI	● UX 	● Cursor
+● Warp	● Codex 	● XcodeBuildMCP
+Specific experience

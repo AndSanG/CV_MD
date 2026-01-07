@@ -1,0 +1,17 @@
+# System
+.DS_Store
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# VS Code
+.vscode/
+
+# Build artifacts (optional, but keeping PDFs for now is fine for a CV repo)
+# *.pdf

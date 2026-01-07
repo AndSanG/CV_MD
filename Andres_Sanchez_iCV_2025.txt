@@ -1,0 +1,46 @@
+Andrés Gualberto Sánchez Guerrero - iOS Software Engineer
++593 987807063 | and_sg@outlook.com | Ecuador | /in/ andsangue /github/ AndSanG
+Professional Summary
+Detail-oriented and performance-driven software developer with 8 years of experience working with high profile clients, mostly digital banking solutions, under strict FinTech SLAs schemes. Delivering reliable, high quality, high performance and resilient solutions being involved in an end to end product delivery using both agile and traditional methodologies.       
+Technical Skills
+Languages and DSL: Swift 6, Concurrency async await, Objective C, Combine, SwiftUI, UIKit, Cocoa Touch, Storyboard, XIB, Auto-layout IB and code based. Web with TypeScript React.
+Architecures and Patterns: Protocol Oriented Programing, Reactive and functional programming, MVC-C, MVP, MVVM, Coordinator, Redux, VIPER, Presenter, TCA, Clean VIP, SOLID, GRASP, Feature Flags, Widgets, OWASP, Dependency Injection.
+Integrations: REST, GraphQL (Apollo), OIDC Authentication, Analytics: New Relic Monitoring & Firebase, Cordova, React Native, JavaScript, Flutter - Dart, HTML/CSS
+Frameworks: Local Authentication, Two Factor Authentication,  MapKit, Apple Pay, Firebase, Push, Swift Package Manager, CocoaPods,  FreeRasp, XCTest, Swift testing, URLSession, SSL Pinning.
+Tooling: Xcode, Cursor, Antigravity, Charles, git, zsh, Testflight, CI CD, Jenkins, AWS Codepipeline, Fastlane, Github Actions, XcodeBuildMCP.
+Troubleshooting: Xcode Instruments, Memory Graph, Crash report.
+Day to day: Jira (Waterfall), Kanban, Agile, ISO 27001.
+Professional Experience
+Senior iOS Engineer — iuvity (Todo1 Services) — Ecuador/Remote |  Nov 2020 – Jun2025.
+Developed UI features of iOS native apps for Bespoken Bancolombia App and White Label Apps for BMM, Coltefinanciera, Comultrasan.
+Plugins for hybrid mobile apps (Cordova & RN) using Swift, ObjectiveC and JS.
+SSr iOS Developer —  iuvity (Todo1 Services) — Ecuador/Quito | Jun 2017 - Aug 2018.
+Developed UI features of iOS native apps for Banistmo Panama.
+Lead the team of providers to ensure the fulfilments of technical requirements.
+iOS Developer — Bayteq Cia Ltda — Ecuador | Sep 2015 – Jun 2017
+Development of White label solution for Mobile banking for Produbanco. 
+Supercines Cinema App: Seat selection SDK and Integration of PCI DSS payment and CoreData.
+Development of point of interest ie. Agencies and ATM for an important Bank using Mapkit.
+Private Tutor — Freelance — Ecuador | Jan 2010 – Dec 2015
+Tutored  and coached high school and university students in STEM and Electronics.
+Highlights
+Architecture evolution from classic MVC-X and MVVM approaches to more robust like VIPER or state driven approaches like Redux and TCA. Using Protocol-Oriented Programming (POP).
+Applied MVVM-C, internationalization, and Theme management to support client-specific branding and localization requirements while maintaining a shared core codebase.
+Implemented Server-Driven UI, allowing adaptive UI layout rendering of banking interfaces based on data fetched from backend services — enabling faster time-to-market and centralized UI management for White Label mobile banking products, designed to be agnostic of backend particularities.
+Integrated Local Authentication (FaceID & TouchID) to secure access to mobile banking apps, ensuring seamless UX while meeting strict FinTech compliance.
+Built banking functionalities (payments, transfers, account management) on top of these secure SDKs, designed for heavy usage with 99.5% availability under industry SLAs.
+App Store management of 10+ Apps ranging from a few thousand to million of users. Solving rejection problems, yearly T&C compliance, updating code to fulfill store requirements.
+Soft Skills
+Attention to details and troubleshooting of problems under very specific circumstances.
+Professional and effective communication for critical problems in high stress situations.
+Structured thought process in the conversions of designs into working code, its delivery and technical documentation in collaboration with technical, design and management teams.
+Convey complex issues in different levels of abstraction according to the audience’s knowledge.
+Meta learning skills to keep up with the always evolving tech stack.
+Education
+Master in Applied Computer Science (Smart Cities) In English — Vrije Universiteit Brussel — Belgium | 2018 – 2020 — Thesis: Minimalistic AI Architectures — Graduated with Distinction.
+Electronics and Communications Engineering — TU Ambato — Ecuador | 2008 – 2015 | Graduated with honors – Cohort’s Top student.
+Publications, Achievements & Certifications
+IEEE Xplore, 2017 – Print server UI for real-time 3D printer image control (http://ieeexplore.ieee.org/document/7975957)
+English Advanced C1 (TOEFL B2 Certified, UTA Certified) | French: Survival for Brussels.
+iOS Lead essentials Program — Essential Developer — Online | In progress.
+Swift Concurrency Course — Antoine van der Lee — Online 
