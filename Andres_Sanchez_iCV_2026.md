@@ -12,7 +12,7 @@ Senior iOS Engineer with 8+ years delivering high-availability mobile banking so
 ## Core Technical Skills
 
 **iOS Native Development**  
-Swift 6 (Concurrency, async/await) • SwiftUI • UIKit • Combine • CocoaTouch • XCTest • Swift Testing • CoreData • MapKit • Local Authentication (FaceID/TouchID) • Apple Pay • StoreKit • Push Notifications
+Swift 6 (Concurrency, async/await) • SwiftUI • UIKit • Combine • CocoaTouch • XCTest • CoreData • MapKit • Local Authentication (FaceID/TouchID) • Apple Pay • StoreKit • Push Notifications
 
 **Architecture & Patterns**  
 VIPER • TCA (The Composable Architecture) • Redux • MVVM-C (Clean) • MVP • Protocol-Oriented Programming (POP) • SOLID • GRASP • Dependency Injection • Feature Flags
@@ -21,14 +21,17 @@ VIPER • TCA (The Composable Architecture) • Redux • MVVM-C (Clean) • MVP
 React Native • Flutter (Dart) • Cordova • Native Module Development • JavaScript • TypeScript • React
 
 **Integration & APIs**  
-RESTful Services • GraphQL (Apollo) • OIDC Authentication • URLSession • Alamofire • SSL Pinning
+RESTful Services • GraphQL (Apollo) • OIDC Authentication • URLSession • Alamofire
 
-**DevOps & Security**  
-Git • Fastlane • Jenkins • GitHub Actions • AWS CodeBuild/CodePipeline • freeRASP • OWASP • ISO 27001 ISMS • Charles Proxy • Xcode Instruments
+**DevOps, Security & Compliance**  
+Git • Fastlane • Jenkins • GitHub Actions • AWS CodeBuild/CodePipeline • freeRASP • ISO 27001 ISMS • Charles Proxy • KeyChain • SSL Pinning • Jailbreak Detection • Code Obfuscation • OWASP MASVS • PCI DSS
+
+**Testing & Quality Assurance**  
+XCTest • XCUITest • Swift Testing • Unit Testing • UI Testing • Snapshot Testing • Test Coverage (80%+) • TDD • Continuous Testing • Xcode Instruments • Memory Profiling
+
 
 **Monitoring & Analytics**  
 Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
-
 
 ---
 
@@ -38,11 +41,11 @@ Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
 **Senior iOS Engineer | Native Expert** (Nov 2020 -- Present)
 *Tech Stack: Swift, SwiftUI, XCTest, Combine, VIPER/TCA, Cordova/RN Plugins, Internationalization, AWS, Firebase.*
 
-*   **Delivered High-Availability Banking Apps:** Engineered resilient mobile solutions for **Bancolombia** (10M active users) and regional banks (less than 100K active users), achieving **99.5% system availability** and a 95% on-time resolution rate under high-pressure scenarios, meeting strict SLAs for millions of active users.
+*   **Delivered High-Availability Banking Apps:** Engineered resilient mobile solutions for **Bancolombia** (10M+ active users) and regional banks (100K+ active users), serving financial institutions across Latin America. Achieved **99.5% system availability** and a 95% on-time resolution rate under high-pressure scenarios, consistently meeting strict SLAs.
 *   **Worked on Architecture Modernization:** Evolved from MVC/MVVM to scalable architectures (**VIPER, TCA, Redux**) and applied Protocol-Oriented Programming for SOLID principles compliance, significantly improving testability by 40% and reducing bug density. Achieved 95% deployment effectiveness through XCTest Unit Tests with at least 80% code coverage.
 *   **Accelerated Time-to-Market:** Implemented **Server-Driven UI** for White Label products used by important financial institutions. Utilized Combine to render adaptive banking interfaces based on backend config, reducing feature deployment time by 60% and enabling centralized UI management across White Label products.
 *   **App Store Expertise:** Managed the full monthly release lifecycle for multiple applications using manual release and CI/CD pipelines. Successfully resolved complex App Store rejections and ensured yearly T&C compliance.
-*   **Security & Compliance:** Integrated Local Authentication (FaceID/TouchID), Apple Pay SDK, and freeRASP security features while ensuring ISO 27001 and OWASP MASVS security compliance. Built robust banking functionalities (payments, transfers, account management) meeting industry-level security standards. Those standards were tested multiple times per year by external auditors, checking for vulnerabilities like Jailbreak and code obfuscation.  
+*   **Security & Compliance:** Integrated Local Authentication (FaceID/TouchID), Apple Pay SDK, and freeRASP security features while ensuring **ISO 27001** and **OWASP MASVS** compliance. Built robust banking functionalities (payments, transfers) meeting industry-level security standards. Maintained compliance through bi-annual external security audits covering jailbreak detection and code obfuscation requirements.
 *   **Data-Driven Development:** Integrated Firebase for user behavior analysis and A/B Testing, and New Relic for performance monitoring and observability, enabling data-informed product decisions.
 *   **Hybrid Expertise:** Developed native plugins for Cordova and React Native using Swift, Objective-C, and JavaScript, serving as Native Expert for cross-platform teams.
 
