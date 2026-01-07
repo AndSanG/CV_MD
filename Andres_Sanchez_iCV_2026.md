@@ -1,6 +1,6 @@
 # Andrés Gualberto Sánchez Guerrero
 **Senior iOS Software Engineer**  
-Quito, Ecuador • +593 987807063 • [and_sg@outlook.com](mailto:and_sg@outlook.com)  
+Quito, Ecuador • Remote within UTC-8 to UTC-4 • +593 987807063 • [and_sg@outlook.com](mailto:and_sg@outlook.com)  
 [linkedin.com/in/andsangue](https://linkedin.com/in/andsangue) • [github.com/AndSanG](https://github.com/AndSanG)
 
 ---
@@ -8,6 +8,7 @@ Quito, Ecuador • +593 987807063 • [and_sg@outlook.com](mailto:and_sg@outlook
 ## Professional Summary
 
 Senior iOS Engineer with 8+ years delivering high-availability mobile banking solutions (99.5% uptime) for major FinTech clients across Latin America. Expert in Swift, modern mobile architectures (VIPER, TCA, Redux) and Clean Architectures using Protocol-Oriented Programming (POP), SOLID principles and Dependency Inversion. Proven track record of evolving legacy systems, implementing Server-Driven UI, and leading technical initiatives under strict regulatory requirements (ISO 27001) and PCI DSS. Master's degree in Applied Computer Science.
+
 ---
 
 ## Core Technical Skills
@@ -37,17 +38,15 @@ Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
 
 ### iuvity (Todo1 Services Inc.) | Remote / Ecuador
 **Senior iOS Engineer | Native Expert** (Nov 2020 -- Present)
-*Tech Stack: Swift, SwiftUI, Combine, VIPER/TCA, Cordova/RN Plugins, Internationalization, AWS, Firebase.*
+*Tech Stack: Swift, SwiftUI, XCTest, Combine, VIPER/TCA, Cordova/RN Plugins, Internationalization, AWS, Firebase.*
 
-*   **Delivered High-Availability Banking Apps:** Engineered resilient mobile solutions for **Bancolombia** and regional banks, achieving **99.5% system availability** and meeting strict SLAs for millions of active users.
-*   **Worked on Architecture Modernization:** Evolved from MVC/MVVM to scalable architectures (**VIPER, TCA, Redux**) and applied Protocol-Oriented Programming for SOLID principles compliance, significantly improving testability by 40% and reducing bug density.
+*   **Delivered High-Availability Banking Apps:** Engineered resilient mobile solutions for **Bancolombia** (10M active users) and regional banks (less than 100K active users), achieving **99.5% system availability** and a 95% on-time resolution rate under high-pressure scenarios, meeting strict SLAs for millions of active users.
+*   **Worked on Architecture Modernization:** Evolved from MVC/MVVM to scalable architectures (**VIPER, TCA, Redux**) and applied Protocol-Oriented Programming for SOLID principles compliance, significantly improving testability by 40% and reducing bug density. Achieved 95% deployment effectiveness through XCTest Unit Tests with at least 80% code coverage.
 *   **Accelerated Time-to-Market:** Implemented **Server-Driven UI** for White Label products used by important financial institutions. Utilized Combine to render adaptive banking interfaces based on backend config, reducing feature deployment time by 60% and enabling centralized UI management across White Label products.
-*   **Hybrid Platform Integration:** Developed critical native plugins for Hybrid apps (Cordova, React Native) to enable secure **FaceID/TouchID** and **Apple Pay** features, ensuring seamless UX and FinTech compliance.
-*   **Incident Management:** Led technical response for critical production issues, maintaining a 95% on-time resolution rate under high-pressure scenarios.
-*   **App Store Expertise:** Managed the full release lifecycle for 10+ applications using manual release and CI/CD pipelines. Successfully resolved complex App Store rejections and ensured yearly T&C compliance.
+*   **App Store Expertise:** Managed the full monthly release lifecycle for multiple applications using manual release and CI/CD pipelines. Successfully resolved complex App Store rejections and ensured yearly T&C compliance.
 *   **Security & Compliance:** Integrated Local Authentication (FaceID/TouchID), Apple Pay SDK, and freeRASP security features while ensuring ISO 27001 compliance. Built robust banking functionalities (payments, transfers, account management) meeting industry-level security standards.
 *   **Data-Driven Development:** Integrated Firebase for user behavior analysis and A/B Testing, and New Relic for performance monitoring and observability, enabling data-informed product decisions.
-*   **Hybrid Expertise:** Developed native plugins for Cordova and React Native using Swift, Objective-C, and JavaScript, serving as Native Expert for cross-platform teams. Achieved 95% deployment effectiveness through TDD and CI/CD practices.
+*   **Hybrid Expertise:** Developed native plugins for Cordova and React Native using Swift, Objective-C, and JavaScript, serving as Native Expert for cross-platform teams.
 
 *Note: Sep 2018 – Oct 2020: Completed Master's Degree in Belgium*
 
@@ -91,7 +90,7 @@ Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
 
 ## Certifications & Achievements
 
-*   **iOS Lead Essentials:** Essential Developer (In Progress).
+*   **iOS Lead Essentials:** Essential Developer (White Belt 3rd stripe).
 *   **Swift Concurrency:** Course by Antoine van der Lee.
 *   **Publication:** *Print server UI for real-time 3D printer image control*. *IEEE Xplore, 2017* | [DOI: 7975957](http://ieeexplore.ieee.org/document/7975957)
 *   **Languages:** English (C1/Advanced), Spanish (Native), French (Basic).

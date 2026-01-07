@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andres_Sanchez_iCV_2026.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="andr%C3%A9s-gualberto-s%C3%A1nchez-guerrero">Andrés Gualberto Sánchez Guerrero</h1>
+<p><strong>Senior iOS Software Engineer</strong><br>
+Quito, Ecuador • Remote within UTC-8 to UTC-4 • +593 987807063 • <a href="mailto:and_sg@outlook.com">and_sg@outlook.com</a><br>
+<a href="https://linkedin.com/in/andsangue">linkedin.com/in/andsangue</a> • <a href="https://github.com/AndSanG">github.com/AndSanG</a></p>
+<hr>
+<h2 id="professional-summary">Professional Summary</h2>
+<p>Senior iOS Engineer with 8+ years delivering high-availability mobile banking solutions (99.5% uptime) for major FinTech clients across Latin America. Expert in Swift, modern mobile architectures (VIPER, TCA, Redux) and Clean Architectures using Protocol-Oriented Programming (POP), SOLID principles and Dependency Inversion. Proven track record of evolving legacy systems, implementing Server-Driven UI, and leading technical initiatives under strict regulatory requirements (ISO 27001) and PCI DSS. Master's degree in Applied Computer Science.</p>
+<hr>
+<h2 id="core-technical-skills">Core Technical Skills</h2>
+<p><strong>iOS Native Development</strong><br>
+Swift 6 (Concurrency, async/await) • SwiftUI • UIKit • Combine • CocoaTouch • XCTest • Swift Testing • CoreData • MapKit • Local Authentication (FaceID/TouchID) • Apple Pay • StoreKit • Push Notifications</p>
+<p><strong>Architecture &amp; Patterns</strong><br>
+VIPER • TCA (The Composable Architecture) • Redux • MVVM-C (Clean) • MVP • Protocol-Oriented Programming (POP) • SOLID • GRASP • Dependency Injection • Feature Flags</p>
+<p><strong>Hybrid &amp; Cross-Platform</strong><br>
+React Native • Flutter (Dart) • Cordova • Native Module Development • JavaScript • TypeScript • React</p>
+<p><strong>Integration &amp; APIs</strong><br>
+RESTful Services • GraphQL (Apollo) • OIDC Authentication • URLSession • Alamofire • SSL Pinning</p>
+<p><strong>DevOps &amp; Security</strong><br>
+Git • Fastlane • Jenkins • GitHub Actions • AWS CodeBuild/CodePipeline • freeRASP • OWASP • ISO 27001 ISMS • Charles Proxy • Xcode Instruments</p>
+<p><strong>Monitoring &amp; Analytics</strong><br>
+Firebase (Analytics, Crashlytics) • New Relic • A/B Testing</p>
+<hr>
+<h2 id="professional-experience">Professional Experience</h2>
+<h3 id="iuvity-todo1-services-inc--remote--ecuador">iuvity (Todo1 Services Inc.) | Remote / Ecuador</h3>
+<p><strong>Senior iOS Engineer | Native Expert</strong> (Nov 2020 -- Present)
+<em>Tech Stack: Swift, SwiftUI, XCTest, Combine, VIPER/TCA, Cordova/RN Plugins, Internationalization, AWS, Firebase.</em></p>
+<ul>
+<li><strong>Delivered High-Availability Banking Apps:</strong> Engineered resilient mobile solutions for <strong>Bancolombia</strong> (10M active users) and regional banks (less than 100K active users), achieving <strong>99.5% system availability</strong> and a 95% on-time resolution rate under high-pressure scenarios, meeting strict SLAs for millions of active users.</li>
+<li><strong>Worked on Architecture Modernization:</strong> Evolved from MVC/MVVM to scalable architectures (<strong>VIPER, TCA, Redux</strong>) and applied Protocol-Oriented Programming for SOLID principles compliance, significantly improving testability by 40% and reducing bug density. Achieved 95% deployment effectiveness through XCTest Unit Tests with at least 80% code coverage.</li>
+<li><strong>Accelerated Time-to-Market:</strong> Implemented <strong>Server-Driven UI</strong> for White Label products used by important financial institutions. Utilized Combine to render adaptive banking interfaces based on backend config, reducing feature deployment time by 60% and enabling centralized UI management across White Label products.</li>
+<li><strong>App Store Expertise:</strong> Managed the full monthly release lifecycle for multiple applications using manual release and CI/CD pipelines. Successfully resolved complex App Store rejections and ensured yearly T&amp;C compliance.</li>
+<li><strong>Security &amp; Compliance:</strong> Integrated Local Authentication (FaceID/TouchID), Apple Pay SDK, and freeRASP security features while ensuring ISO 27001 compliance. Built robust banking functionalities (payments, transfers, account management) meeting industry-level security standards.</li>
+<li><strong>Data-Driven Development:</strong> Integrated Firebase for user behavior analysis and A/B Testing, and New Relic for performance monitoring and observability, enabling data-informed product decisions.</li>
+<li><strong>Hybrid Expertise:</strong> Developed native plugins for Cordova and React Native using Swift, Objective-C, and JavaScript, serving as Native Expert for cross-platform teams.</li>
+</ul>
+<p><em>Note: Sep 2018 – Oct 2020: Completed Master's Degree in Belgium</em></p>
+<h3 id="iuvity-todo1-services-inc--quito-ecuador">iuvity (Todo1 Services Inc.) | Quito, Ecuador</h3>
+<p><strong>SSr iOS Developer</strong> (Jun 2017 -- Aug 2018)
+<em>Tech Stack: Swift 4, Objective-C, VIPER, UIKit, Alamofire, TestFlight.</em></p>
+<ul>
+<li><strong>Technical Leadership:</strong> Emerged as de facto team leader (as the only in house developer) for a distributed team of providers, ensuring code quality and adherence to company standards while supporting product management.</li>
+<li><strong>Legacy Modernization:</strong> Refactored legacy Objective-C codebases to Swift and updated UI layouts to support iPhone X form factors (<strong>Safe Area</strong>, AutoLayout).</li>
+<li><strong>Feature Delivery:</strong> Developed banking UI features for <strong>Banistmo Panama</strong> using UIKit and VIPER architecture. Successfully integrated Swift code into legacy Objective-C codebase while maintaining stability.</li>
+<li><strong>REST API Integration:</strong> Implemented complex banking service integrations using Alamofire, ensuring reliable transaction processing and data synchronization.</li>
+<li><strong>Modernization Initiative:</strong> Led migration to support iPhone X and iPhone Plus new layout paradigms, ensuring optimal UX across device generations.</li>
+<li><strong>Release Management:</strong> Managed beta releases via TestFlight and App Store deployments and early attempts at CI/CD pipelines using Fastlane and Jenkins, coordinating with QA and stakeholders.</li>
+</ul>
+<h3 id="bayteq-cia-ltda--ecuador">Bayteq Cia Ltda | Ecuador</h3>
+<p><strong>iOS Developer</strong> (Sep 2015 -- Jun 2017)
+<em>Tech Stack: Objective-C, UIKit, Swift 3, MapKit, CoreData, Protocol-Oriented Programming, VIPER</em></p>
+<ul>
+<li><strong>Agile Champion:</strong> Led 20-week Agile transformation initiative for a Digital Bank project, demonstrating methodology benefits from conception to App Store release, resulting in client adoption of Agile practices.</li>
+<li><strong>Complex Feature Development:</strong> Built <strong>Supercines Cinema App</strong> featuring custom seat selection SDK, PCI DSS-compliant payment integration, and CoreData persistence for offline functionality.</li>
+<li><strong>White Label Banking:</strong> Developed White Label mobile banking solution for <strong>Produbanco</strong>, establishing reusable architecture patterns adopted in subsequent projects.</li>
+<li><strong>Security Implementation:</strong> Integrated <strong>FacePhi</strong> identity verification SDK for <strong>Banco Bolivariano</strong>, ensuring secure account access while maintaining seamless user experience.</li>
+<li><strong>Location Services:</strong> Developed Points of Interest module (Agencies/ATMs) using MapKit with custom clustering and routing features.</li>
+</ul>
+<hr>
+<h2 id="education">Education</h2>
+<p><strong>Vrije Universiteit Brussel</strong> | Brussels, Belgium<br>
+<strong>MSc in Applied Computer Science (Smart Cities)</strong> (2018 -- 2020)<br>
+<em>Funded by the Ecuadorian Government Scholarship</em><br>
+<em>Thesis: Minimalistic AI Architectures for Language Models – Research &amp; Development using Python</em><br>
+<em>Graduated with Distinction -- Program conducted entirely in English.</em></p>
+<p><strong>Universidad Técnica de Ambato (UTA)</strong> | Ecuador<br>
+<strong>BSc in Electronics and Communications Engineering</strong> (2008 -- 2015)
+<em>Thesis: Print server UI for real-time 3D printer image control</em><br>
+<em>Graduated with honors -- Cohort’s Top Student.</em></p>
+<hr>
+<h2 id="certifications--achievements">Certifications &amp; Achievements</h2>
+<ul>
+<li><strong>iOS Lead Essentials:</strong> Essential Developer (White Belt 3rd stripe).</li>
+<li><strong>Swift Concurrency:</strong> Course by Antoine van der Lee.</li>
+<li><strong>Publication:</strong> <em>Print server UI for real-time 3D printer image control</em>. <em>IEEE Xplore, 2017</em> | <a href="http://ieeexplore.ieee.org/document/7975957">DOI: 7975957</a></li>
+<li><strong>Languages:</strong> English (C1/Advanced), Spanish (Native), French (Basic).</li>
+</ul>
+<h2 id="key-strengths">Key Strengths</h2>
+<ul>
+<li>Troubleshooting complex production issues under time-critical SLA constraints.</li>
+<li>Translating business requirements into technical architecture and maintainable code.</li>
+<li>Effective communication with technical and non-technical stakeholders across all levels.</li>
+<li>Rapid adaptation to evolving technology stacks and client-specific requirements.</li>
+<li>Structured approach to technical documentation and knowledge transfer.</li>
+</ul>
+
+</body>
+</html>
