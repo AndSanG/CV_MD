@@ -7,9 +7,7 @@ Quito, Ecuador • Remote within UTC-8 to UTC-4 • +593 987807063 • [and_sg@o
 
 ## Professional Summary
 
-Senior iOS Engineer with 8+ years delivering high-availability mobile banking solutions (99.5% uptime) for major FinTech clients across Latin America. Expert in Swift, modern mobile architectures (VIPER, TCA, Redux) and Clean Architectures using Protocol-Oriented Programming (POP), SOLID principles and Dependency Inversion. Proven track record of evolving legacy systems, implementing Server-Driven UI, and leading technical initiatives under strict regulatory requirements (ISO 27001) and PCI DSS. Master's degree in Applied Computer Science.
-
----
+Senior iOS Engineer with 8+ years delivering high-availability mobile banking solutions (99.5% uptime) for major FinTech clients across Latin America. Expert in Swift, modern mobile architectures (VIPER, TCA, Redux) and Clean Architectures using Protocol-Oriented Programming (POP), SOLID principles and Dependency Inversion. Proven track record of evolving legacy systems, implementing Server-Driven UI, and leading technical initiatives under strict regulatory requirements (ISO 27001, **OWASP MASVS**) and PCI DSS. Master's degree in Applied Computer Science.
 
 ## Core Technical Skills
 
@@ -44,7 +42,7 @@ Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
 *   **Worked on Architecture Modernization:** Evolved from MVC/MVVM to scalable architectures (**VIPER, TCA, Redux**) and applied Protocol-Oriented Programming for SOLID principles compliance, significantly improving testability by 40% and reducing bug density. Achieved 95% deployment effectiveness through XCTest Unit Tests with at least 80% code coverage.
 *   **Accelerated Time-to-Market:** Implemented **Server-Driven UI** for White Label products used by important financial institutions. Utilized Combine to render adaptive banking interfaces based on backend config, reducing feature deployment time by 60% and enabling centralized UI management across White Label products.
 *   **App Store Expertise:** Managed the full monthly release lifecycle for multiple applications using manual release and CI/CD pipelines. Successfully resolved complex App Store rejections and ensured yearly T&C compliance.
-*   **Security & Compliance:** Integrated Local Authentication (FaceID/TouchID), Apple Pay SDK, and freeRASP security features while ensuring ISO 27001 compliance. Built robust banking functionalities (payments, transfers, account management) meeting industry-level security standards.
+*   **Security & Compliance:** Integrated Local Authentication (FaceID/TouchID), Apple Pay SDK, and freeRASP security features while ensuring ISO 27001 and OWASP MASVS security compliance. Built robust banking functionalities (payments, transfers, account management) meeting industry-level security standards. Those standards were tested multiple times per year by external auditors, checking for vulnerabilities like Jailbreak and code obfuscation.  
 *   **Data-Driven Development:** Integrated Firebase for user behavior analysis and A/B Testing, and New Relic for performance monitoring and observability, enabling data-informed product decisions.
 *   **Hybrid Expertise:** Developed native plugins for Cordova and React Native using Swift, Objective-C, and JavaScript, serving as Native Expert for cross-platform teams.
 
