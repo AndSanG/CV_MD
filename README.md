@@ -1,14 +1,13 @@
 # Andrés Gualberto Sánchez Guerrero
 **Senior iOS Software Engineer**  
-Quito, Ecuador • Remote within UTC-8 to UTC-4 • +593 987807063 • [and_sg@outlook.com](mailto:and_sg@outlook.com)  
-[linkedin.com/in/andsangue](https://linkedin.com/in/andsangue) • [github.com/AndSanG](https://github.com/AndSanG)
+Quito, Ecuador • Remote within UTC-8 to UTC-4 • +593 987807063 
+• [and_sg@outlook.com](mailto:and_sg@outlook.com) • [linkedin.com/in/andsangue](https://linkedin.com/in/andsangue) • [github.com/AndSanG](https://github.com/AndSanG)
 
 ---
 
 ## Professional Summary
 
 Senior iOS Engineer with 8+ years delivering high-availability mobile banking solutions (99.5% uptime) for major FinTech clients across Latin America. Expert in Swift, modern mobile architectures (VIPER, TCA, Redux) and Clean Architectures using Protocol-Oriented Programming (POP), SOLID principles and Dependency Inversion. Proven track record of evolving legacy systems, implementing Server-Driven UI, and leading technical initiatives under strict regulatory requirements (ISO 27001, **OWASP MASVS**) and PCI DSS. Master's degree in Applied Computer Science.
-
 ## Core Technical Skills
 
 **iOS Native Development**  
@@ -17,18 +16,14 @@ Swift 6 (Concurrency, async/await) • SwiftUI • UIKit • Combine • CocoaTo
 **Architecture & Patterns**  
 VIPER • TCA (The Composable Architecture) • Redux • MVVM-C (Clean) • MVP • Protocol-Oriented Programming (POP) • SOLID • GRASP • Dependency Injection • Feature Flags
 
-**Hybrid & Cross-Platform**  
-React Native • Flutter (Dart) • Cordova • Native Module Development • JavaScript • TypeScript • React
+**Integration: APIs & Cross-Platform**  
+RESTful Services • GraphQL (Apollo) • OIDC Authentication • URLSession • Alamofire • React Native • Flutter (Dart) • Cordova • Native Module Development • JavaScript • TypeScript • React
 
-**Integration & APIs**  
-RESTful Services • GraphQL (Apollo) • OIDC Authentication • URLSession • Alamofire
-
-**DevOps, Security & Compliance**  
-Git • Fastlane • Jenkins • GitHub Actions • AWS CodeBuild/CodePipeline • freeRASP • ISO 27001 ISMS • Charles Proxy • KeyChain • SSL Pinning • Jailbreak Detection • Code Obfuscation • OWASP MASVS • PCI DSS
+**DevOps, Security & AI Tooling**  
+Git • Fastlane • Jenkins • GitHub Actions • AWS CodeBuild/CodePipeline • freeRASP • ISO 27001 ISMS • Charles Proxy • SSL Pinning • Jailbreak Detection • Code Obfuscation • OWASP MASVS • PCI DSS • Xcode • Cursor • Antigravity • zsh • Testflight • XcodeBuildMCP • Claude Code • Codex • Gemini • NotionAI.    
 
 **Testing & Quality Assurance**  
 XCTest • XCUITest • Swift Testing • Unit Testing • UI Testing • Snapshot Testing • Test Coverage (80%+) • TDD • Continuous Testing • Xcode Instruments • Memory Profiling
-
 
 **Monitoring & Analytics**  
 Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
@@ -38,7 +33,7 @@ Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
 ## Professional Experience
 
 ### iuvity (Todo1 Services Inc.) | Remote / Ecuador
-**Senior iOS Engineer | Native Expert** (Nov 2020 -- Present)
+**Senior iOS Engineer** (Nov 2020 -- Present)
 *Tech Stack: Swift, SwiftUI, XCTest, Combine, VIPER/TCA, Cordova/RN Plugins, Internationalization, AWS, Firebase.*
 
 *   **Delivered High-Availability Banking Apps:** Engineered resilient mobile solutions for **Bancolombia** (10M+ active users) and regional banks (100K+ active users), serving financial institutions across Latin America. Achieved **99.5% system availability** and a 95% on-time resolution rate under high-pressure scenarios, consistently meeting strict SLAs.
@@ -49,7 +44,7 @@ Firebase (Analytics, Crashlytics) • New Relic • A/B Testing
 *   **Data-Driven Development:** Integrated Firebase for user behavior analysis and A/B Testing, and New Relic for performance monitoring and observability, enabling data-informed product decisions.
 *   **Hybrid Expertise:** Developed native plugins for Cordova and React Native using Swift, Objective-C, and JavaScript, serving as Native Expert for cross-platform teams.
 
-*Note: Sep 2018 – Oct 2020: Completed Master's Degree in Belgium*
+*Note: Sep 2018 – Oct 2020: Completed Master's Degree in Applied Computer Science.*
 
 ### iuvity (Todo1 Services Inc.) | Quito, Ecuador
 **SSr iOS Developer** (Jun 2017 -- Aug 2018)
